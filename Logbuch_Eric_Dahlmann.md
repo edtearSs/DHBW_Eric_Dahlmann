@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/618cb36c-010b-48f9-9794-736ce6ecda88)
 
-###Logbuch vom 28.10.2024
+#Logbuch vom 28.10.2024
 
 ##Was haben wir heute gemacht?
 
