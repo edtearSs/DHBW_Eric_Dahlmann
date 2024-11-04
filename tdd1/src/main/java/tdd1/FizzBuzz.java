@@ -21,4 +21,11 @@ public class FizzBuzz {
         }
         return null;
     }
+
+    public int checkNotFizzBuzz(int input){
+        if (input % 15 != 0 || input % 5 != 0 || input % 3 != 0){
+            return input;
+        }
+        return 0;
+    }
 }
