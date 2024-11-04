@@ -14,4 +14,11 @@ public class FizzBuzz {
         }
         return null;
     }
+
+    public String checkFizzBuzz(int input){
+        if (input % 15 == 0){
+            return "FizzBuzz";
+        }
+        return null;
+    }
 }
