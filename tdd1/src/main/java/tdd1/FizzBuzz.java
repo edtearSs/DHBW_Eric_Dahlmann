@@ -42,4 +42,41 @@ public class FizzBuzz {
         }
         return null;
     }
+
+    public String checkFizzWhizz(int input){
+        if (input % 21 == 0){
+            return "FizzWhizz";
+        }
+        return null;
+    }
+
+    public String checkFizzBang(int input){
+        if (input % 33 == 0){
+            return "FizzBang";
+        }
+        return null;
+    }
+
+    public String checkBuzzWhizz(int input){
+        if (input % 35 == 0){
+            return "BuzzWhizz";
+        }
+        return null;
+    }
+
+    public String checkBuzzBang(int input){
+        if (input % 55 == 0){
+            return "BuzzBang";
+        }
+        return null;
+    }
+
+    public String checkWhizzBang(int input){
+        if (input % 77 == 0){
+            return "WhizzBang";
+        }
+        return null;
+    }
+
+
 }
