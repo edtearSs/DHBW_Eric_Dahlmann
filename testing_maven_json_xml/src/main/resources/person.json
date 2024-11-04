@@ -1,0 +1,21 @@
+{ "person": {
+  "firstname": "Eric",
+  "lastname": "Dahlmann",
+  "adress": {
+    "street": "Kriegsstraße",
+    "no": 130,
+    "zip": 76133,
+    "city": "Karlsruhe"
+  },
+  "hobbies": [
+    "Gitarre",
+    "Bouldern",
+    "Videospiele"
+  ],
+  "company": {
+    "name": "NTT DATA Deutschland SE",
+    "headquarter_city": "München"
+  },
+  "isFromKarlsruhe": true
+}
+}
