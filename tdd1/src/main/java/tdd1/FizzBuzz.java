@@ -35,4 +35,11 @@ public class FizzBuzz {
         }
         return null;
     }
+
+    public String checkBang (int input){
+        if (input % 11 == 0){
+            return "Bang";
+        }
+        return null;
+    }
 }
