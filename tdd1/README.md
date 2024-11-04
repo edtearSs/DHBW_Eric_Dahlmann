@@ -9,13 +9,13 @@ Schreibe eine Funktion, die die Zahlen von 1 bis 100 ausgibt. Dabei gelten folge
 * In allen anderen Fällen gib die Zahl selbst aus
 
 ## Beispiele
-```java
-1       -> "1"
-2       -> "2"
-3       -> "Fizz"
-5       -> "Buzz"
-15      -> "FizzBuzz"
-```
+java
+<!--1       -> "1"-->
+<!--2       -> "2"-->
+<!--3       -> "Fizz"-->
+<!--5       -> "Buzz"-->
+<!--15      -> "FizzBuzz"-->
+
 
 ## Zusatzanforderungen
 
