@@ -1,0 +1,1 @@
+package tdd1;import org.junit.jupiter.api.Test;import static org.assertj.core.api.Fail.fail;public class GiveMeAGoodNameTest {    @Test    void whatDoYouWantToTestToday() {        fail("not implemented yet");    }}
