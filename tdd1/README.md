@@ -12,7 +12,7 @@ Schreibe eine Funktion, die die Zahlen von 1 bis 100 ausgibt. Dabei gelten folge
 java
 <!--1       -> "1"-->
 <!--2       -> "2"-->
-<!--3       -> ÜÖÄ"Fizz"-->
+<!--3       -> "Fizz"-->
 <!--5       -> "Buzz"-->
 <!--15      -> "FizzBuzz"-->
 
