@@ -28,4 +28,11 @@ public class FizzBuzz {
         }
         return 0;
     }
+
+    public String checkWhizz (int input){
+        if (input % 7 == 0){
+            return "Whizz";
+        }
+        return null;
+    }
 }
