@@ -22,8 +22,8 @@ public class FizzBuzz {
         return null;
     }
 
-    public int checkNotFizzBuzz(int input){
-        if (input % 5 != 0 && input % 3 != 0){
+    public int checkNotFizzBuzzWhizzBang(int input){
+        if (input % 5 != 0 && input % 3 != 0 && input % 7 != 0 && input % 11 != 0){
             return input;
         }
         return 0;
