@@ -5,6 +5,10 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.StringReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -55,5 +59,34 @@ public class MainXMLTest {
         assertTrue(person.isFromKarlsruhe());
         assertEquals("NTT DATA Deutschland SE", person.getCompany().getName());
         assertArrayEquals(new String[]{"Gitarre", "Bouldern", "Videospiele"}, person.getHobbies());
+    }
+
+    @Test
+    public void testXmlFileToPersonObject() throws JAXBException, IOException {
+        // XML aus der Datei im Klassenpfad lesen
+        InputStreamReader reader = new InputStreamReader(getClass().getClassLoader().getResourceAsStream("person.xml"));
+
+        // JAXB-Kontext und Unmarshaller erstellen
+        JAXBContext context = JAXBContext.newInstance(PersonRoot.class, PersonXML.class, AddressXML.class, CompanyXML.class);
+
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+
+        // XML in PersonXML-Objekt deserialisieren
+        PersonXML person = (PersonXML) unmarshaller.unmarshal(reader);
+
+        // Schließen des Readers
+        reader.close();
+
+        // Verifikationen mit AssertJ
+        assertThat(person.getFirstname()).isEqualTo("Eric");
+        assertThat(person.getLastname()).isEqualTo("Dahlmann");
+        assertThat(person.getAddress().getStreet()).isEqualTo("Kriegsstraße");
+        assertThat(person.getAddress().getNo()).isEqualTo(130);
+        assertThat(person.getAddress().getZip()).isEqualTo(76133);
+        assertThat(person.getAddress().getCity()).isEqualTo("Karlsruhe");
+        assertThat(person.isFromKarlsruhe()).isTrue();
+        assertThat(person.getCompany().getName()).isEqualTo("NTT DATA Deutschland SE");
+        assertThat(person.getCompany().getHeadquarterCity()).isEqualTo("München");
+        assertThat(person.getHobbies()).containsExactly("Gitarre", "Bouldern", "Videospiele");
     }
 }

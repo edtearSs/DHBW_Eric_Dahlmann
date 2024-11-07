@@ -52,7 +52,7 @@ public class MainJsonTest {
     }
 
     @Test
-    public void testJsonFiletoPersonObjectWithAssert() throws IOException{
+    public void testJsonFileToPersonObjectWithAssert() throws IOException{
         String filePath = "src/test/resources/person.json";  // Pfad zur JSON-Datei
         FileReader reader = new FileReader(filePath);
 
@@ -77,7 +77,5 @@ public class MainJsonTest {
         assertThat(person.isFromKarlsruhe()).isTrue();
         assertThat(person.getCompany().getName()).isEqualTo("NTT DATA Deutschland SE");
         assertThat(person.getHobbies()).containsExactly("Gitarre", "Bouldern", "Videospiele");
-    }
-}
     }
 }

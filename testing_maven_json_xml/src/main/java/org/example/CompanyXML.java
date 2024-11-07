@@ -13,6 +13,10 @@ public class CompanyXML {
         this.headquarterCity = headquarterCity;
     }
 
+    public CompanyXML(){
+
+    }
+
     // Getter und Setter
     public String getName() {
         return name;

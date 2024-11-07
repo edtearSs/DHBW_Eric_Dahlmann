@@ -3,10 +3,15 @@ package org.example;
 import javax.xml.bind.annotation.*;
 
 @XmlAccessorType(XmlAccessType.FIELD)
+@XmlRootElement(name = "address")
 public class AddressXML {
+    @XmlElement
     private String street;
+    @XmlElement
     private int no;
+    @XmlElement
     private int zip;
+    @XmlElement
     private String city;
 
     public AddressXML(String street, int no, int zip, String city) {
@@ -15,7 +20,12 @@ public class AddressXML {
         this.zip = zip;
         this.city = city;
     }
+
+    public AddressXML(){
+
+    }
     // Getter und Setter
+
     public String getStreet() {
         return street;
     }
@@ -23,6 +33,7 @@ public class AddressXML {
     public void setStreet(String street) {
         this.street = street;
     }
+
 
     public int getNo() {
         return no;
@@ -32,6 +43,7 @@ public class AddressXML {
         this.no = no;
     }
 
+
     public int getZip() {
         return zip;
     }
@@ -39,6 +51,7 @@ public class AddressXML {
     public void setZip(int zip) {
         this.zip = zip;
     }
+
 
     public String getCity() {
         return city;
