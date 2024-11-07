@@ -19,6 +19,10 @@ public class PersonXML {
         this.isFromKarlsruhe = isFromKarlsruhe;
     }
 
+    public PersonXML(){
+
+    }
+
     @XmlElementWrapper(name = "hobbies") // Verpackt das Array in das <hobbies>-Tag
     @XmlElement(name = "hobby") // Jedes Array-Element als <hobby>-Tag
     private String[] hobbies;
