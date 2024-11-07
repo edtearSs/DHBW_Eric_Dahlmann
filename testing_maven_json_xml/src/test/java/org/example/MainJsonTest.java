@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class MainJson {
+public class MainJsonTest {
 
     @Test
     public void testJsonToPersonObject() {
