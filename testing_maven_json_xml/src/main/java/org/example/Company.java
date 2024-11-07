@@ -4,6 +4,11 @@ public class Company {
         private String name;
         private String headquarter_city;
 
+        public Company(String name, String headquarter_city) {
+            this.name = name;
+            this.headquarter_city = headquarter_city;
+        }
+
         public String getName(){
             return name;
         }

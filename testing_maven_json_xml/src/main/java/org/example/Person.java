@@ -8,6 +8,15 @@ public class Person {
     private Company company;
     private boolean isFromKarlsruhe;
 
+    public Person(String firstname, String lastname, Address address, String[] hobbies, Company company, boolean isFromKarlsruhe){
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.address = address;
+        this.hobbies = hobbies;
+        this.company = company;
+        this.isFromKarlsruhe = isFromKarlsruhe;
+    }
+
     public String getFirstname() {
         return firstname;
     }

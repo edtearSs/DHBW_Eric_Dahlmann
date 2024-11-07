@@ -9,7 +9,11 @@ public class PersonXML {
     private String firstname;
     private String lastname;
     private AddressXML address;
+
+    @XmlElementWrapper(name = "hobbies") // Verpackt das Array in das <hobbies>-Tag
+    @XmlElement(name = "hobby") // Jedes Array-Element als <hobby>-Tag
     private String[] hobbies;
+
     private CompanyXML company;
     private boolean isFromKarlsruhe;
 
@@ -38,8 +42,6 @@ public class PersonXML {
         this.address = address;
     }
 
-    @XmlElementWrapper(name = "hobbies") // Verpackt das Array in das <hobbies>-Tag
-    @XmlElement(name = "hobby") // Jedes Array-Element als <hobby>-Tag
     public String[] getHobbies() {
         return hobbies;
     }
