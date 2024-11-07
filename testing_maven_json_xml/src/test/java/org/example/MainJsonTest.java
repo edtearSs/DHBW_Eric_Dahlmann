@@ -3,6 +3,11 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileReader;
+import java.io.IOException;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class MainJsonTest {
@@ -44,5 +49,35 @@ public class MainJsonTest {
 
         // Hobbies-Array prüfen
         assertArrayEquals(new String[]{"Gitarre", "Bouldern", "Videospiele"}, person.getHobbies());
+    }
+
+    @Test
+    public void testJsonFiletoPersonObjectWithAssert() throws IOException{
+        String filePath = "src/test/resources/person.json";  // Pfad zur JSON-Datei
+        FileReader reader = new FileReader(filePath);
+
+        // Gson-Instanz erstellen
+        Gson gson = new Gson();
+
+        // JSON in PersonRoot-Objekt deserialisieren
+        PersonRoot personRoot = gson.fromJson(reader, PersonRoot.class);
+
+        // Schließen des FileReaders
+        reader.close();
+
+        // Verifikationen mit AssertJ
+        Person person = personRoot.getPerson();
+
+        assertThat(person.getFirstname()).isEqualTo("Eric");
+        assertThat(person.getLastname()).isEqualTo("Dahlmann");
+        assertThat(person.getAddress().getStreet()).isEqualTo("Kriegsstraße");
+        assertThat(person.getAddress().getNo()).isEqualTo(130);
+        assertThat(person.getAddress().getZip()).isEqualTo(76133);
+        assertThat(person.getAddress().getCity()).isEqualTo("Karlsruhe");
+        assertThat(person.isFromKarlsruhe()).isTrue();
+        assertThat(person.getCompany().getName()).isEqualTo("NTT DATA Deutschland SE");
+        assertThat(person.getHobbies()).containsExactly("Gitarre", "Bouldern", "Videospiele");
+    }
+}
     }
 }
