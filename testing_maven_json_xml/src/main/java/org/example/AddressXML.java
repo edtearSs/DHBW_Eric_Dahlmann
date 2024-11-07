@@ -63,12 +63,8 @@ public class AddressXML {
 
     @Override
     public String toString() {
-        return "Address{" +
-                "street='" + street + '\'' +
-                ", no=" + no +
-                ", zip=" + zip +
-                ", city='" + city + '\'' +
-                '}';
+        String delimiter = Config.getDelimiter();
+        return street + delimiter + no + delimiter + zip + delimiter + city;
     }
 }
 

@@ -36,10 +36,8 @@ public class CompanyXML {
 
     @Override
     public String toString() {
-        return "Company{" +
-                "name='" + name + '\'' +
-                ", headquarterCity='" + headquarterCity + '\'' +
-                '}';
+        String delimiter = Config.getDelimiter();
+        return name + delimiter + headquarterCity;
     }
 }
 

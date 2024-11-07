@@ -81,13 +81,12 @@ public class PersonXML {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", address=" + address +
-                ", hobbies=" + Arrays.toString(hobbies) +
-                ", company=" + company +
-                ", isFromKarlsruhe=" + isFromKarlsruhe +
-                '}';
+        String delimiter = Config.getDelimiter();  // Lade das Trennzeichen
+        return firstname + delimiter +
+                lastname + delimiter +
+                (address != null ? address.toString() : "") + delimiter +
+                String.join(delimiter, hobbies) + delimiter +
+                (company != null ? company.toString() : "") + delimiter +
+                isFromKarlsruhe;
     }
 }

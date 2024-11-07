@@ -46,13 +46,9 @@ public class Address {
         }
 
         @Override
-        public String toString(){
-            return "Address{" +
-                    "street='" + street + '\'' +
-                    ", no=" + no +
-                    ", zip=" + zip +
-                    ", city='" + city + '\'' +
-                    '}';
+        public String toString() {
+            String delimiter = Config.getDelimiter();
+            return street + delimiter + no + delimiter + zip + delimiter + city;
         }
 }
 

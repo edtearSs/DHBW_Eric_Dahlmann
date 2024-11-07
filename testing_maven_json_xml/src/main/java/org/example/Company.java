@@ -26,10 +26,8 @@ public class Company {
         }
 
         @Override
-        public String toString(){
-            return "Company{" +
-                    "name='" + name + '\'' +
-                    ", headquarter_city='" + headquarter_city + '\'' +
-                    '}';
+        public String toString() {
+            String delimiter = Config.getDelimiter();
+            return name + delimiter + headquarter_city;
         }
 }
