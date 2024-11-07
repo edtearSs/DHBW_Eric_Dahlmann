@@ -70,26 +70,29 @@ Ich bin schlechter im Googlen/ChatGPT nutzen als ich erwartet habe.
 
 ## Was haben wir heute gemacht?
 
-
+Wir haben unsere erste Session mit Mob-Programming gehabt.
 
 ## Warum könnte dieses Thema für dich wichtig sein?
 
-
+Mob-Programming fördert die Teamarbeit und besonders das Wachstum in seinem Team.
 
 ## Was hast du deiner Einschätzung nach gut verstanden, was nicht?
 
-
+Ich habe denke relativ gut verstanden wie man als Team zusammen im Mob programmiert und bin sehr gut mit Timon und Jacob bei der Aufgabe vorangekommen.
 
 ## Was war heute dein größte inhaltliche Herausforderung?
 
-
+Die größte Herausforderung ist meist zu verstehen welche methoden man don den verschiedenen Libraries man verwendet/verwenden muss.
 
 ## Welche Fragen zum Thema hast du noch?
 
-
+Zum Thema Mob-Programming eigentlich keine. Ich habe jedoch immernoch schwierigkeiten bei der XML/JSON Aufgabe. An sich ist die Theorie relativ einfach verständlich, aber die praktische Umsetzung brauch deutlich mehr Übung und ich bin Überhaupt kein Fan das alles nur mit ChatGPT zu bearbeiten.
 
 ## Warum interessiert dich dieses Thema oder warum gerade nicht?
 
-
+Ich arbeite sehr gerne in Teams und hoffe, dass ich in Zukunft strategien wie MobProgramming in der Praxisphase verwenden kann.
 
 ## Was ist deine eigene Erkenntnis jetzt wo du dieses Wissen hast (z.B. Transferfragen, Transfererkenntnisse, Parallelen zu anderen Bereichen? Es könnte auch eine persönlich Erkenntnis sein, die nichts mit dem Thema zu tun hat.
+
+Das Arbeiten mit Maven, komplexen IDE's wie IntelliJ and mit verschiedenen Umgebungen ist schwierig. Wer richtig googlen/chatGPT nutzen kann ist klar im Vorteil und ich wünschte ich hätte mehr Zeit mich damit zu beschäftigen.
+Der Aufwand für die JSON/XML aufgabe war meiner Meinung nach viel zu groß. Ich habe insgesamt 10h für diese "einfache" Aufgabe gebraucht um habe gefühlt fast nichts dabei gelernt.
