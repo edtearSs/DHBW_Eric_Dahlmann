@@ -8,6 +8,11 @@ public class CompanyXML {
     @XmlElement(name = "headquarter_city")
     private String headquarterCity;
 
+    public CompanyXML(String name, String headquarterCity) {
+        this.name = name;
+        this.headquarterCity = headquarterCity;
+    }
+
     // Getter und Setter
     public String getName() {
         return name;

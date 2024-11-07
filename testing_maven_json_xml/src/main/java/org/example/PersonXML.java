@@ -10,6 +10,15 @@ public class PersonXML {
     private String lastname;
     private AddressXML address;
 
+    public PersonXML(String firstname, String lastname, AddressXML address, String[] hobbies, CompanyXML company, boolean isFromKarlsruhe) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.address = address;
+        this.hobbies = hobbies;
+        this.company = company;
+        this.isFromKarlsruhe = isFromKarlsruhe;
+    }
+
     @XmlElementWrapper(name = "hobbies") // Verpackt das Array in das <hobbies>-Tag
     @XmlElement(name = "hobby") // Jedes Array-Element als <hobby>-Tag
     private String[] hobbies;

@@ -9,6 +9,12 @@ public class AddressXML {
     private int zip;
     private String city;
 
+    public AddressXML(String street, int no, int zip, String city) {
+        this.street = street;
+        this.no = no;
+        this.zip = zip;
+        this.city = city;
+    }
     // Getter und Setter
     public String getStreet() {
         return street;
