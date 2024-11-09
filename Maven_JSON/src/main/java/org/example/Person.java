@@ -22,7 +22,7 @@ public class Person {
     public Person(){}
 
     public String getFirstname() {
-        return firstname;
+        return this.firstname;
     }
 
     public void setFirstname(String firstname) {
@@ -30,7 +30,7 @@ public class Person {
     }
 
     public String getLastname() {
-        return lastname;
+        return this.lastname;
     }
 
     public void setLastname(String lastname) {
@@ -38,7 +38,7 @@ public class Person {
     }
 
     public Address getAddress() {
-        return address;
+        return this.address;
     }
 
     public void setAddress(Address address) {
@@ -46,7 +46,7 @@ public class Person {
     }
 
     public List<String> getHobbies() {
-        return hobbies;
+        return this.hobbies;
     }
 
     public void setHobbies(List<String> hobbies) {
@@ -54,7 +54,7 @@ public class Person {
     }
 
     public Company getCompany() {
-        return company;
+        return this.company;
     }
 
     public void setCompany(Company company) {
@@ -62,11 +62,11 @@ public class Person {
     }
 
     public boolean isFromKarlsruhe() {
-        return isFromKarlsruhe;
+        return this.isFromKarlsruhe;
     }
 
     public void setFromKarlsruhe(boolean fromKarlsruhe) {
-        isFromKarlsruhe = fromKarlsruhe;
+        this.isFromKarlsruhe = fromKarlsruhe;
     }
 
     @Override

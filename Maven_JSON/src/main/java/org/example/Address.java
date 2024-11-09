@@ -16,7 +16,7 @@ public class Address {
         public Address(){}
 
         public String getStreet(){
-            return street;
+            return this.street;
         }
 
         public void setStreet(String street){
@@ -24,7 +24,7 @@ public class Address {
         }
 
         public int getNo() {
-            return no;
+            return this.no;
         }
 
         public void setNo(int no){
@@ -32,7 +32,7 @@ public class Address {
         }
 
         public int getZip(){
-            return zip;
+            return this.zip;
         }
 
         public void setZip(int zip){
@@ -40,7 +40,7 @@ public class Address {
         }
 
         public String getCity(){
-            return city;
+            return this.city;
         }
 
         public void setCity(String city){

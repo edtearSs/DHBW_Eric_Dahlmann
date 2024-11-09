@@ -10,7 +10,7 @@ public class Company {
         }
 
         public String getName(){
-            return name;
+            return this.name;
         }
 
         public void setName(String name){
@@ -18,7 +18,7 @@ public class Company {
         }
 
         public String getHeadquarter_city(){
-            return headquarter_city;
+            return this.headquarter_city;
         }
 
         public void setHeadquarter_city(String headquarter_city){
