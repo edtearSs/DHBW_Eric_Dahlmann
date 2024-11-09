@@ -11,6 +11,8 @@ public class Company {
             this.headquarter_city = headquarter_city;
         }
 
+        public Company(){}
+
         public String getName(){
             return this.name;
         }

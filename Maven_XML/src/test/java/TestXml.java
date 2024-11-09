@@ -5,6 +5,8 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -22,5 +24,57 @@ public class TestXml {
         List<String> hobbies = new ArrayList<>(Arrays.asList("Gitarre", "Bouldern", "Videospiele"));
         //Return Konstruktor für die Person mit den vorher erstellten Werten
         return new Person("Eric", "Dahlmann", address, hobbies, company, true);
+    }
+
+    //Erstelle Testmethode
+    @Test
+    public void testXmlWithAssertThat() throws JAXBException {
+
+        //Path für den xml File --> speichere diesen in Variable xmlFile
+        File xmlFile = new File("src/test/resources/person.xml");
+
+
+        //Initialisierung von den JAXBContext als Person-Klasse und Unmarshaller Objekten
+        JAXBContext context = JAXBContext.newInstance(Person.class);
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+
+        //unmarshaller liest den xmlFile aus und speichert diesen als Person
+        Person person = (Person) unmarshaller.unmarshal(xmlFile);
+
+        //print person
+        System.out.println(person);
+
+        //Vergleiche die zu erwartete Person mit dem xmlFile
+        assertThat(createPerson()).isNotNull().usingRecursiveComparison().isEqualTo(person);
+    }
+
+    @Test
+    public void testXmlToPerson() throws JAXBException{
+
+        File xmlFile = new File("src/test/resources/person.xml");
+
+        JAXBContext context = JAXBContext.newInstance(Person.class);
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+
+        Person person = (Person) unmarshaller.unmarshal(xmlFile);
+
+        System.out.println(person);
+    }
+
+    @Test
+    public void testPersonToXML() throws JAXBException{
+
+        Person person = createPerson();
+
+        JAXBContext context = JAXBContext.newInstance(Person.class);
+        Marshaller marshaller = context.createMarshaller();
+
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+
+        File out = new File("src/test/resources/out.xml");
+
+        marshaller.marshal(person, out);
+
+        System.out.println("XML File created" + out.getAbsolutePath());
     }
 }
