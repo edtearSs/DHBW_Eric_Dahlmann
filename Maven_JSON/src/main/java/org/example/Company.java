@@ -27,7 +27,7 @@ public class Company {
 
         @Override
         public String toString() {
-            String delimiter = Config.getDelimiter();
-            return name + delimiter + headquarter_city;
+            String delimiter = " " + Config.getSeparator();
+            return "name:' " + name + delimiter + " headquarter_city:" + headquarter_city + delimiter;
         }
 }

@@ -1,23 +1,21 @@
 package org.example;
 
 import java.io.IOException;
-import java.io.InputStream;
+import java.io.FileInputStream;
 import java.util.Properties;
 
 public class Config {
-    private static final String CONFIG_FILE = "config.properties";
+    private static final Properties properties = new Properties();
 
-    public static String getDelimiter() {
-        Properties properties = new Properties();
-        try (InputStream input = Config.class.getClassLoader().getResourceAsStream(CONFIG_FILE)) {
-            if (input == null) {
-                throw new RuntimeException("Properties file not found: " + CONFIG_FILE);
-            }
+    static {
+        try (FileInputStream input = new FileInputStream("config.properties")) {
             properties.load(input);
         } catch (IOException e) {
             e.printStackTrace();
-            return ",";  // Fallback delimiter if loading fails
         }
-        return properties.getProperty("delimiter", ",");  // Default to comma if not specified
+    }
+
+    public static String getSeparator() {
+        return properties.getProperty("separator", "#"); // Fallback zu # falls nicht vorhanden
     }
 }

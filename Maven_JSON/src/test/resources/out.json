@@ -1,4 +1,5 @@
-{ "firstname": "Eric",
+{
+  "firstname": "Eric",
   "lastname": "Dahlmann",
   "address": {
     "street": "Kriegsstraße",

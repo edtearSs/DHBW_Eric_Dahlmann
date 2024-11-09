@@ -6,14 +6,14 @@ public class Address {
         private int zip;
         private String city;
 
+        public Address(){}
+
         public Address(String street, int no, int zip, String city) {
             this.street = street;
             this.no = no;
             this.zip = zip;
             this.city = city;
         }
-
-        public Address(){}
 
         public String getStreet(){
             return this.street;
@@ -49,8 +49,8 @@ public class Address {
 
         @Override
         public String toString() {
-            String delimiter = Config.getDelimiter();
-            return street + delimiter + no + delimiter + zip + delimiter + city;
+            String delimiter = " " + Config.getSeparator();
+            return "street:'" + street + delimiter + "no:'" + no + delimiter + "zip:'" + zip + delimiter + "city:'" + city + delimiter;
         }
 }
 

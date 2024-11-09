@@ -71,12 +71,13 @@ public class Person {
 
     @Override
     public String toString() {
-        String delimiter = Config.getDelimiter();  // Lade das Trennzeichen
-        return firstname + delimiter +
-                lastname + delimiter +
+        String delimiter = " " + Config.getSeparator();  // Lade das Trennzeichen
+        return "Person{" +
+                "firstname:'" + firstname + delimiter +
+                "lastname:'" + lastname + delimiter +
                 (address != null ? address.toString() : "") + delimiter +
-                String.join(delimiter, hobbies) + delimiter +
+                "hobbies:'" + hobbies + delimiter +
                 (company != null ? company.toString() : "") + delimiter +
-                isFromKarlsruhe;
+                isFromKarlsruhe + "}";
     }
 }
