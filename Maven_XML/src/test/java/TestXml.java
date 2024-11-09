@@ -35,10 +35,12 @@ public class TestXml {
 
 
         //Initialisierung von den JAXBContext als Person-Klasse und Unmarshaller Objekten
+        //JAXBContext Übergibt wie die Klasse ausgelesen werden soll
         JAXBContext context = JAXBContext.newInstance(Person.class);
         Unmarshaller unmarshaller = context.createUnmarshaller();
 
         //unmarshaller liest den xmlFile aus und speichert diesen als Person
+        //caste xmlfile als Person
         Person person = (Person) unmarshaller.unmarshal(xmlFile);
 
         //print person

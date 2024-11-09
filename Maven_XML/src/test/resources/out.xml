@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+    <firstname>Eric</firstname>
+    <lastname>Dahlmann</lastname>
+    <address>
+        <street>Kriegsstraße</street>
+        <no>130</no>
+        <zip>76133</zip>
+        <city>Karlsruhe</city>
+    </address>
+    <hobbies>
+        <hobby>Gitarre</hobby>
+        <hobby>Bouldern</hobby>
+        <hobby>Videospiele</hobby>
+    </hobbies>
+    <company>
+        <name>NTT DATA Deutschland SE</name>
+        <headquarter_city>München</headquarter_city>
+    </company>
+    <isFromKarlsruhe>true</isFromKarlsruhe>
+</person>
