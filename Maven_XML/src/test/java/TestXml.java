@@ -40,12 +40,11 @@ public class TestXml {
         Unmarshaller unmarshaller = context.createUnmarshaller();
 
         //unmarshaller liest den xmlFile aus und speichert diesen als Person
-        //caste xmlfile als Person
+        //caste xmlfile als Person Dateitypen
         Person person = (Person) unmarshaller.unmarshal(xmlFile);
 
         //print person
         System.out.println(person);
-
 
         //Vergleiche die zu erwartete Person mit dem xmlFile
         assertThat(createPerson()).isNotNull().usingRecursiveComparison().isEqualTo(person);

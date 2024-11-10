@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import javax.xml.bind.annotation.*;
 
+
 @XmlRootElement(name = "person")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Person {

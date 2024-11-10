@@ -28,6 +28,8 @@ public class TestJson {
         return new Person("Eric", "Dahlmann", address, hobbies, company, true);
     }
 
+
+
     //Erstelle Testmethode
     @Test
     public void testJsonWithAssertThat() throws IOException{

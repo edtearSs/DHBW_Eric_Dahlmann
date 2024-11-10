@@ -73,10 +73,10 @@ public class Person {
     public String toString() {
         String delimiter = " " + Config.getSeparator();  // Lade das Trennzeichen
         return "Person{" +
-                "firstname:'" + firstname + delimiter +
-                "lastname:'" + lastname + delimiter +
+                "firstname:" + firstname + delimiter +
+                "lastname:" + lastname + delimiter +
                 (address != null ? address.toString() : "") + delimiter +
-                "hobbies:'" + hobbies + delimiter +
+                "hobbies:" + hobbies + delimiter +
                 (company != null ? company.toString() : "") + delimiter +
                 isFromKarlsruhe + "}";
     }
