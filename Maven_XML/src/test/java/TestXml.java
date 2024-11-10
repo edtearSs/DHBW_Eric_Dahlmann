@@ -79,7 +79,7 @@ public class TestXml {
         //formatierung für den zu speicherenden xml file
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
 
-        //erstelle neuen file für den path
+        //erstelle neue Variable für den path
         File out = new File("src/test/resources/out.xml");
 
         //nutzt marshaller.marshal(zu_speicherende_objekt, pathname)
