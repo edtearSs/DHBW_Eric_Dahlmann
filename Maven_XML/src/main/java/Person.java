@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.List;
 import javax.xml.bind.annotation.*;
 
@@ -76,12 +77,12 @@ public class Person {
     @Override
     public String toString() {
         String delimiter = " " + Config.getSeparator();  // Lade das Trennzeichen
-        return "Person{" +
-                "firstname:'" + firstname + delimiter +
-                "lastname:'" + lastname + delimiter +
+        return "<Person>" +
+                "<firstname>" + firstname + "</firstname>" + delimiter +
+                "<lastname>" + lastname + "</lastname>" + delimiter +
                 (address != null ? address.toString() : "") + delimiter +
-                "hobbies:'" + hobbies + delimiter +
+                "<hobbies>" + hobbies + "</hobbies>" + delimiter +
                 (company != null ? company.toString() : "") + delimiter +
-                isFromKarlsruhe + "}";
+                isFromKarlsruhe + "</Person>";
     }
 }

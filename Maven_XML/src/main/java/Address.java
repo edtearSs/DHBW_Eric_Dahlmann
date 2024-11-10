@@ -52,7 +52,7 @@ public class Address {
         @Override
         public String toString() {
             String delimiter = " " + Config.getSeparator();
-            return "street:'" + street + delimiter + "no:'" + no + delimiter + "zip:'" + zip + delimiter + "city:'" + city + delimiter;
+            return "<street>" + street + "</street>" + delimiter + "<no>" + no + "</no>" + delimiter + "<zip>" + zip + "</zip>" + delimiter + "<city>" + city + "</city>" + delimiter;
         }
 }
 
