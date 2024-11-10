@@ -5,8 +5,6 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -32,7 +30,6 @@ public class TestXml {
 
         //Path für den xml File --> speichere diesen in Variable xmlFile
         File xmlFile = new File("src/test/resources/person.xml");
-
 
         //Initialisierung von den JAXBContext als Person-Klasse und Unmarshaller Objekten
         //JAXBContext Übergibt wie die Klasse ausgelesen werden soll
