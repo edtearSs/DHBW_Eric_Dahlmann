@@ -1,6 +1,36 @@
 ![image](https://github.com/user-attachments/assets/618cb36c-010b-48f9-9794-736ce6ecda88)
 
-# Logbuch vom 24.10.2024
+# Logbuch vom 24. Oktober 2024
+
+## Was haben wir heute gemacht?
+
+Einführungsstunde Werkzeuge und MEthoden der Softwareentwicklung. Kennenlernen, anfang installation maven, etc.
+
+## Warum könnte dieses Thema für dich wichtig sein?
+
+Richtiges Testen in bei der Softwareentwicklung kann bei der Arbeit im Projekt mit anderen nützlich sein/pflicht sein.
+
+## Was hast du deiner Einschätzung nach gut verstanden, was nicht?
+
+Gab nicht wirklich etwas zu verstehen. Installierung der notwendigen Software --> man brauch git zur Teamarbeit, maven um die passenden tests durchzuführen, java/andere sprachen zum Programmieren. Miro/Kanban board/scrum master etc für die Planung
+
+## Was war heute dein größte inhaltliche Herausforderung?
+
+Installationspfade genau verstehen.
+
+## Welche Fragen zum Thema hast du noch?
+
+Erstmal keine. Ich verstehe den nutzen und den Sinn hinter dem Thema. 
+
+## Warum interessiert dich dieses Thema oder warum gerade nicht?
+
+Interessiert mich weil es nützlich ist, weiß aber noch nicht genau ob ich das ganze in meiner Firma brauchen werde.
+
+## Was ist deine eigene Erkenntnis jetzt wo du dieses Wissen hast (z.B. Transferfragen, Transfererkenntnisse, Parallelen zu anderen Bereichen? Es könnte auch eine persönlich Erkenntnis sein, die nichts mit dem Thema zu tun hat.
+
+Installationen auf Windows manchmal schwerer als auf Linux. 
+
+# Logbuch vom 28.10.2024
 
 ## Was haben wir heute gemacht?
 
@@ -34,7 +64,7 @@ Neutrale Meinung.
 
 Ich habe gelernt dass Windows paar nachteile beim Programmieren hat. Ich habe gelernt dass git nützlich ist. Ich habe gelernt dass ich so wenig wie möglich mit ähnlichen Installationen und Setups Zeit verbringen will (Ich werde mir niemals einen Apple kaufen)
 
-# Logbuch vom 28. Oktober 2024
+# Logbuch vom 30. Oktober 2024
 
 ## Was haben wir heute gemacht?
 
@@ -64,23 +94,6 @@ Mir fehlt im Moment ein praktisches Beispiel. Würde gerne lernen wie man die Te
 ## Was ist deine eigene Erkenntnis jetzt wo du dieses Wissen hast (z.B. Transferfragen, Transfererkenntnisse, Parallelen zu anderen Bereichen? Es könnte auch eine persönlich Erkenntnis sein, die nichts mit dem Thema zu tun hat.
 
 Ich bin schlechter im Googlen/ChatGPT nutzen als ich erwartet habe.
-
-# Logbuch vom 30. Oktober 2024
-
-## Was haben wir heute gemacht?
-
-## Warum könnte dieses Thema für dich wichtig sein?
-
-## Was hast du deiner Einschätzung nach gut verstanden, was nicht?
-
-## Was war heute dein größte inhaltliche Herausforderung?
-
-## Welche Fragen zum Thema hast du noch?
-
-## Warum interessiert dich dieses Thema oder warum gerade nicht?
-
-## Was ist deine eigene Erkenntnis jetzt wo du dieses Wissen hast (z.B. Transferfragen, Transfererkenntnisse, Parallelen zu anderen Bereichen? Es könnte auch eine persönlich Erkenntnis sein, die nichts mit dem Thema zu tun hat.
-
 
 # Logbuch vom 4. November 2024
 
