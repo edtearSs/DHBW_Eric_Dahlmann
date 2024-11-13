@@ -134,7 +134,7 @@ Die 2. Mobprogramming Session. Timon, Jacob und ich haben zusammen die restliche
 
 ## Warum könnte dieses Thema für dich wichtig sein?
 
-Eigentlich die gleiche Antwort wie in der Woche davor. Teamarbeit kann besonders in gräßeren Firmen wichtig sein.
+Eigentlich die gleiche Antwort wie in der Woche davor. Teamarbeit kann besonders in größeren Firmen wichtig sein.
 
 ## Was hast du deiner Einschätzung nach gut verstanden, was nicht?
 
@@ -142,27 +142,28 @@ Ich denke ich habe die verwendung von Mob-Programming ganz gut verstanden. TDD v
 
 ## Was war heute dein größte inhaltliche Herausforderung?
 
-
+Implementierung der vorher erstellten Methoden in einer Schleife sodass alle Zahlen von 1-100 ausgegeben werden mit den festgelegten Regeln.
 
 ## Welche Fragen zum Thema hast du noch?
 
-
+Genaue Fragen habe ich keine, aber ich brauch auf jeden Fall mehr Erfahrung mit den gelernten Arbeitsmethoden damit ich mich daran gewöhnen kann.
 
 ## Warum interessiert dich dieses Thema oder warum gerade nicht?
 
-
+Selbe Antwort wie davor. Daran hat sich nichts geändert.
 
 ## Was ist deine eigene Erkenntnis jetzt wo du dieses Wissen hast (z.B. Transferfragen, Transfererkenntnisse, Parallelen zu anderen Bereichen? Es könnte auch eine persönlich Erkenntnis sein, die nichts mit dem Thema zu tun hat.
 
-
+Die implementierung der For-Schleife hat mir dabei geholfen genauer zu Verstehen wie ich tests verwende wenn ich mehrere Methoden habe die ich testen will und wie ich diese Umsetze.
+Ursprünglich ist mir nicht genau eingefallen wie ich die Schleife am besten nutze und ob die Schleife in die Main-Klasse oder Test-Klasse muss.
 
 ## Vergleiche die einzelnen Durchgänge der heutigen Session. Welche Veränderungen sind dir von Durchgang zu Durchgang im gesamten Team aufgefallen? Welche speziell bei dir?
 
-
+Ich glaube wir haben uns heute deutlich weniger regelmäßig an die Regeln für Mob-Programming gehalten. Was die arbeit etwas schwert hat. 
 
 ## Vergleiche Session 1 und 2. Was hat sich verändert? Bei dir, in der Gruppe?
 
-
+Die Arbeit von mehreren Personen nebeneinander mit mehreren PC's ist sehr nervig. Es wäre einfacher mit einem PC zu arbeiten und Plätze zu wechseln oder mit Screenshare zu arbeiten und zu wechseln.
 
 ## Wie bewertest du Mob Programming?
 
