@@ -1,6 +1,7 @@
 package tdd1;
 
 public class FizzBuzz {
+
     public String checkFizz(int input){
         if (input % 3 ==0){
             return "Fizz";
@@ -78,5 +79,40 @@ public class FizzBuzz {
         return null;
     }
 
+    public void checkEverything(){
+        String output = null;
+        for(int i = 1; i <= 100; i++){
+
+            if(checkWhizzBang(i) != null){
+                output = checkWhizzBang(i);
+            }else if(checkBuzzBang(i)!=null) {
+                output = checkBuzzBang(i);
+            }else if(checkBuzzWhizz(i)!=null) {
+                output = checkBuzzWhizz(i);
+            }else if(checkFizzBang(i)!=null){
+                output = checkFizzBang(i);
+            }else if(checkFizzWhizz(i)!=null){
+                output = checkFizzWhizz(i);
+            }else if(checkFizzBuzz(i)!=null){
+                output = checkFizzBuzz(i);
+            }else if(checkBang(i)!=null){
+                output = checkBang(i);
+            }else if(checkWhizz(i) != null){
+                output = checkWhizz(i);
+            }else if(checkBuzz(i) != null){
+                output = checkBuzz(i);
+            }else if(checkFizz(i)!=null){
+                output = checkFizz(i);
+            }else if(checkNotFizzBuzzWhizzBang(i)!=0){
+                output = String.valueOf(checkNotFizzBuzzWhizzBang(i));
+            }
+
+            System.out.println(output);
+        }
+    }
+    public static void main(String[]args){
+        FizzBuzz test = new FizzBuzz();
+        test.checkEverything();
+    }
 
 }
