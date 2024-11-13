@@ -131,6 +131,7 @@ Der Aufwand für die JSON/XML aufgabe war meiner Meinung nach viel zu groß. Ich
 ## Was haben wir heute gemacht?
 
 Die 2. Mobprogramming Session. Timon, Jacob und ich haben zusammen die restlichen fehlenden Funktionen in unser TDD1 Projekt. Besonders die implementierung der For-Schleife.
+Ich habe angefangen an der HappyLeapYears Aufgabe zu arbeiten.
 
 ## Warum könnte dieses Thema für dich wichtig sein?
 
