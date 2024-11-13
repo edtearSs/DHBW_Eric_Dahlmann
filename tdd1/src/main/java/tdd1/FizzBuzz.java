@@ -78,11 +78,10 @@ public class FizzBuzz {
         }
         return null;
     }
-    //
+
     public void checkEverything(){
         String output = null;
         for(int i = 1; i <= 100; i++){
-
             if(checkWhizzBang(i) != null){
                 output = checkWhizzBang(i);
             }else if(checkBuzzBang(i)!=null) {
@@ -106,7 +105,6 @@ public class FizzBuzz {
             }else if(checkNotFizzBuzzWhizzBang(i)!=0){
                 output = String.valueOf(checkNotFizzBuzzWhizzBang(i));
             }
-
             System.out.println(output);
         }
     }
