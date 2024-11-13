@@ -125,3 +125,51 @@ Ich arbeite sehr gerne in Teams und hoffe, dass ich in Zukunft strategien wie Mo
 
 Das Arbeiten mit Maven, komplexen IDE's wie IntelliJ and mit verschiedenen Umgebungen ist schwierig. Wer richtig googlen/chatGPT nutzen kann ist klar im Vorteil und ich wünschte ich hätte mehr Zeit mich damit zu beschäftigen.
 Der Aufwand für die JSON/XML aufgabe war meiner Meinung nach viel zu groß. Ich habe insgesamt 10h für diese "einfache" Aufgabe gebraucht um habe gefühlt fast nichts dabei gelernt.
+
+# Logbuch vom 13.11.2024
+
+## Was haben wir heute gemacht?
+
+Die 2. Mobprogramming Session. Timon, Jacob und ich haben zusammen die restlichen fehlenden Funktionen in unser TDD1 Projekt. Besonders die implementierung der For-Schleife.
+
+## Warum könnte dieses Thema für dich wichtig sein?
+
+Eigentlich die gleiche Antwort wie in der Woche davor. Teamarbeit kann besonders in gräßeren Firmen wichtig sein.
+
+## Was hast du deiner Einschätzung nach gut verstanden, was nicht?
+
+Ich denke ich habe die verwendung von Mob-Programming ganz gut verstanden. TDD verstehe ich den Sinn, aber ich bin bis jetzt kein Fan von der Idee bei kleinen Tests anzufangen, zumindest wenn diese Simpel sind.
+
+## Was war heute dein größte inhaltliche Herausforderung?
+
+
+
+## Welche Fragen zum Thema hast du noch?
+
+
+
+## Warum interessiert dich dieses Thema oder warum gerade nicht?
+
+
+
+## Was ist deine eigene Erkenntnis jetzt wo du dieses Wissen hast (z.B. Transferfragen, Transfererkenntnisse, Parallelen zu anderen Bereichen? Es könnte auch eine persönlich Erkenntnis sein, die nichts mit dem Thema zu tun hat.
+
+
+
+## Vergleiche die einzelnen Durchgänge der heutigen Session. Welche Veränderungen sind dir von Durchgang zu Durchgang im gesamten Team aufgefallen? Welche speziell bei dir?
+
+
+
+## Vergleiche Session 1 und 2. Was hat sich verändert? Bei dir, in der Gruppe?
+
+
+
+## Wie bewertest du Mob Programming?
+
+Sehr nützlich. Ich arbeite gerne im Team und es ist 100% super interessant zu sehen wie andere Personen Programmieren.
+
+## Wie bewertest du TDD?
+
+Kann ich bis jetzt schlecht einschätzen. An sich verstehe ich den nutzen, aber ich brauche mehr Erfahrung mit der Arbeitsweise um wirklich eine gute Bewertung angeben zu können.
+
+
