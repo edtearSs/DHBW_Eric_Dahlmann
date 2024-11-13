@@ -1,0 +1,1 @@
+package de.kit;import java.util.List;public class HappyLeapYearDetector {    public List<Integer> calculateHappyLeapYears(List<Integer> yearsToBeChecked) {        return null;    }    public boolean isHappyLeapYear(String inputYear) {        Integer.valueOf(inputYear);        return false;    }}

@@ -1,0 +1,1 @@
+package de.kit;class HappyLeapDetectorTest {    HappyLeapYearDetector underTest = new HappyLeapYearDetector();    // Hinweis    // alle Jahreszahlen für die nächsten 100 Jahre könnt ihr so generieren.    // List<Integer> yearsToCheck = IntStream.rangeClosed(2024, 2124).boxed().toList();}
