@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/618cb36c-010b-48f9-9794-736ce6ecda88)
+![image](https://github.com/user-attachments/assets/20b2ca66-60e2-4482-a124-031e43b86069)
+
 
 # Logbuch vom 24. Oktober 2024
 
